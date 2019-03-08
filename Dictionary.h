@@ -1,4 +1,11 @@
-/// input string use  2D Array
+/*
+ * @Author: Md. Sadhan Sarker
+ * @Date: 2019-03-09 04:58:27 
+ * @Last Modified by: mikey.zhaopeng
+ * @Last Modified time: 2019-03-09 05:00:54
+ */
+
+
 
 #ifndef Dictionary
 
