@@ -1,4 +1,4 @@
-# mini-os-in-c
+# Mini-os-in-c
 Mini OS Base On C Language, That is basically fun project.
 
 
