@@ -44,7 +44,7 @@ void add()
     char name[sizeAD][50];        // add
     char mean[sizeAD][50];        // add
 
-    w = fopen("wordD.txt", "a");
+    w = fopen("word.txt", "a");
     m = fopen("mean.txt", "a");
     if(w==NULL || m==NULL  ) printf("Unable to Open.\n");
 
@@ -73,7 +73,7 @@ void search()
     {
     system("cls");
     FILE *iw,*im;
-    iw = fopen("wordD.txt", "r");
+    iw = fopen("word.txt", "r");
     im = fopen("mean.txt", "r");
 
 
@@ -109,7 +109,7 @@ void list()
     int a;
     char ch1, ch2;
     FILE *li1,*li2;
-    li1 = fopen("wordD.txt", "r");
+    li1 = fopen("word.txt", "r");
     li2 = fopen("mean.txt", "r");
     if(li1==NULL || li2==NULL) printf("Unable to Open");
 
@@ -140,6 +140,8 @@ void list()
 
     fclose(li1);
     fclose(li2);
+
+    system("cls");
 }
 #define Dictionary
 #endif // Dictionary
